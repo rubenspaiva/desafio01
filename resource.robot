@@ -15,7 +15,7 @@ Digitar a palavra "robot framework"
     Input Text  //*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input  ${text}
 
 Clicar no botão de pesquisar
-    Click Button  //*[@id="tsf"]/div[2]/div[1]/div[3]/center/input[1]
+    Press Keys    none    ENTER
 
 Verificar se a busca trouxe resultados
     Page Should Contain  ${results}
