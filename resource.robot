@@ -23,11 +23,7 @@ Verificar se a busca trouxe resultados
 Acessar o terceiro link da busca
     Click Element  xpath=//*[@id="rso"]/div[2]/div/div[1]/a
 
-Verificar se abriu a página correta
+Verificar se abriu a página correta e fechar o navegador
     ${titulo} =  Get Title
     Page Should Contain  ${titulo}  ${text}
-
-Fechar browser
     Close Browser
-
-
