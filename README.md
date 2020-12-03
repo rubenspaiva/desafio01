@@ -26,7 +26,7 @@ Além disso, é necessário colocar o chrome webdriver na pasta scripts do pytho
 Caso não consiga localizar a pasta scripts do python, deixe o arquivo no mesmo local que o arquivo .robot.
 
 # Execução
-Para executar o arquivo, basta abrir o cmd (prompt de comando), acessar a pasta em que o arquivo está localizado, e executar o arquivo com o seguinte comando: robot -d results desafio2.robot
+Para executar o arquivo, basta abrir o cmd (prompt de comando), acessar a pasta em que os 3 arquivos estão localizados, e executar o arquivo com o seguinte comando: robot -d results desafio1.robot
 
 # Links
 * https://robotframework.org/
