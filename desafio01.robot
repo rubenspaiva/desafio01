@@ -9,8 +9,7 @@ Cenário 01: Fazer uma busca no Google
     Quando clicar no botão pesquisar
         E verificar que a página trouxe resultados
     Quando clicar na terceira pesquisa
-        E verificar que está na página correta
-    Então fechar o navegador
+    Então verificar que está na página correta e fechar o navegador
 
 *** Keywords ***
 que esteja no site da google
@@ -28,8 +27,5 @@ verificar que a página trouxe resultados
 clicar na terceira pesquisa
     Acessar o terceiro link da busca
 
-verificar que está na página correta
-    Verificar se abriu a página correta
-
-fechar o navegador
-    Fechar browser
+verificar que está na página correta e fechar o navegador
+    Verificar se abriu a página correta e fechar o navegador
