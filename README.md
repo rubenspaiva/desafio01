@@ -29,8 +29,8 @@ Caso não consiga localizar a pasta scripts do python, deixe o arquivo no mesmo 
 Para executar o arquivo, basta abrir o cmd (prompt de comando), acessar a pasta em que o arquivo está localizado, e executar o arquivo com o seguinte comando: robot -d results desafio2.robot
 
 # Links
-https://robotframework.org/
-https://www.python.org/downloads/
-https://chromedriver.chromium.org/downloads
-https://github.com/robotframework/SeleniumLibrary/
+* https://robotframework.org/
+* https://www.python.org/downloads/
+* https://chromedriver.chromium.org/downloads
+* https://github.com/robotframework/SeleniumLibrary/
 
